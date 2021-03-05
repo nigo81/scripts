@@ -12,6 +12,8 @@ fcitx &
 nextcloud &
 mate-power-manager &
 blueman-applet &
+ulauncher &
+/home/nigo/software/clash/clash -d . &
 #xfce4-volumed-pulse &
 #/bin/bash ~/scripts/run-mailsync.sh &
 ~/scripts/autostart_wait.sh &
