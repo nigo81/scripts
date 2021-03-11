@@ -3,7 +3,7 @@
 /bin/bash ~/scripts/dwm-status.sh &
 /bin/bash ~/scripts/wp-autochange.sh &
 #picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -f -D 5 -c -b
-picom --experimental-backends
+picom --experimental-backends &
 /bin/bash ~/scripts/tap-to-click.sh &
 /bin/bash ~/scripts/inverse-scroll.sh &
 #/bin/bash ~/scripts/setxmodmap-colemak.sh &
@@ -13,7 +13,7 @@ nextcloud &
 mate-power-manager &
 blueman-applet &
 albert &
-nohup /home/nigo/software/clash/clash -d . >/dev/null 2>&1 &
+cd ~/software/clash/ && nohup ./clash -d . >/dev/null 2>&1 &
 #xfce4-volumed-pulse &
 #/bin/bash ~/scripts/run-mailsync.sh &
 ~/scripts/autostart_wait.sh &
